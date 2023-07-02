@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    appearance: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-color: #212121;
+    color: white;
+}
+
+.nav {
+    padding: 40px 200px;
+}
+
+.nav h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.add-books {
+    margin-inline: 200px;
+    background-color: #313131;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.add-books p {
+    margin-bottom: 20px;
+    font-size: 2.8rem;
+}
+
+.add-books form {
+    display: flex;
+    column-gap: 20px;
+    font-size: 2rem;
+}
+
+.add-books div {
+    display: flex;
+    column-gap: 10px;
+}
+
+.add-books label {
+    font-size: 1.6rem;
+}
+
+.add-books input {
+    padding: 1px 4px;
+    font-size: 1.6rem;
+    background-color: #212121;
+    border-radius: 5px;
+    color: white;
+}
+
+.add-books select {
+    font-size: 1.6rem;
+    color: white;
+    background-color: #212121;
+    border-radius: 5px;
+}
+
+.add-books option {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.submit-form {
+    margin-left: auto;
+}
+
+.submit-form button {
+    padding: 2px 20px;
+    background-color: #5F85DB;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.clear-books {
+    margin: 20px 200px;
+}
+
+.clear-books button {
+    padding: 5px 20px;
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.book-display {
+    margin-inline: 200px;
+}
+
+.book-display div {
+    margin-block: 20px;
+    padding: 15px 20px;
+    background-color: #313131;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.book-display > div > p {
+    color: white;
+    font-size: 1.8rem;
+} 
+
+.status-btn {
+    width: 110px;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 2px 20px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.delete-btn {
+    width: 110px;
+    padding: 2px 20px;
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+footer {
+    margin-top: auto;
+    padding-block: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+footer p {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+footer > a > img:hover {
+    transform: scale(1.4);
+}
